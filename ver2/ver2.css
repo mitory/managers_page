@@ -5,12 +5,17 @@
 	justify-content: center;
 	text-align: center;
 	gap: 15px;
+	width: 350px;
 }
 .ruk__item.main_ruk {
 	flex-direction: row;
 	justify-content: center;
 	gap: 50px;
 	margin-bottom: 25px;
+	width: 1000px;
+}
+.second_level .ruk__item {
+	width: 300px;
 }
 .ruk-item__title {
 	font-size: 19px;
@@ -50,6 +55,17 @@ summary:hover {
 	display: flex;
 	gap: 20px;
 	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: start;
+	margin: 0 10px;
+	margin-bottom: 20px;
+}
+
+.third_level {
+	margin: 0 90px;
+	display: flex;
+	gap: 20px;
+	justify-content: space-evenly;
 	flex-wrap: wrap;
 	align-items: start;
 }
