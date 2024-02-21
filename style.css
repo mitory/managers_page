@@ -1,0 +1,11 @@
+.container {
+	width: 300px;
+	height: 100vh;
+	margin: auto;
+}
+.ver_lisr {
+	margin-top: 50vh;
+	display: flex;
+	justify-content: center;
+	gap: 25px;
+}

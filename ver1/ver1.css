@@ -1,0 +1,37 @@
+.ruk__list {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 40px;
+	margin-bottom: 20px;
+}
+
+.ruk__item {
+	width: 800px;
+	border: 2px solid #002061;
+	border-radius: 10px;
+	display: flex;
+	align-items: start;
+	gap: 23px;
+}
+.ruk-item__img {
+	width: 250px;
+	border-radius: 10px;
+	margin: 12px 0 12px 12px;
+}
+.ruk-item__title {
+	text-align: center;
+	font-size: 19px;
+}
+.ruk-item__post {
+	text-align: center;
+	margin-top: 10px;
+	margin-bottom: 42px;
+}
+.ruk-item__text {
+	padding: 0 24px;
+}
+.ruk-item__content {
+	padding: 30px 0;
+	margin: 0 auto;
+}
